@@ -2,36 +2,30 @@
 
 ## Objectif Application Client
 
-L'objectif de ce projet est de développer une plateforme web permettant aux utilisateurs de passer des commandes pour des produits alimentaires et d'autres produits de base avec une fonctionnalité d'achat solidaire, permettant aux utilisateurs d'acheter des produits à un prix légèrement plus élevé, mais d'en offrir au RestauDuCoeur le plus proche.
+L'objectif de ce projet est de développer une plateforme web permettant aux utilisateurs de passer des commandes pour des produits alimentaires et d'autres produits de base avec une fonctionnalité d'achat solidaire, permettant aux utilisateurs d'acheter des produits à un prix légèrement moindre grâce au fait d'acheter en gros.
 
 ## Fonctionnalités Principales Client
 
-### Front-end Client
-
 1. **Inscription et Connexion** :
-    - Les utilisateurs peuvent s'inscrire en fournissant leur nom, leur adresse e-mail et un mot de passe.
-    - Les utilisateurs peuvent se connecter en utilisant leur adresse e-mail et leur mot de passe.
+    - Les utilisateurs peuvent s'inscrire en fournissant leur nom/prénoms (potentielement un pseudo), leur adresse e-mail, un mot de passe et le fait de vouloir apparaitre sur la page des remerciements.
+    - Les utilisateurs peuvent se connecter en utilisant leur adresse e-mail ou pseudo et leur mot de passe.
 
 2. **Catalogue de Produits** :
     - Les utilisateurs peuvent parcourir un catalogue de produits.
-        - Chaque produit affiche son nom, sa description, son prix, une image et la quantité disponible.
+        - Chaque produit affiche son nom, sa description, son prix, une image.
+        - une couleur pour l'urgence si c'est pour une association.
  
 3. **Passer une Commande** :
-    - Les utilisateurs ont la possibilité d'acheter des produits à un prix légèrement plus élevé et d'en offrir aux RestauDuCoeur (1 produit payé plus cher = 1 produit offert au RestauDuCoeur)
-    - Panier d'achat permet ajouter, supprimer et modifier des articles, aussi affiche le detail des produts que la personne va recevoir et le detail des produits qui seront envoyé au RestauDuCoeur.
-    - Ils peuvent passer leur commande en spécifiant le RestauDuCoeur aupres duquel ils pourront recuperer la commande 
+    - Les utilisateurs ont la possibilité d'acheter des produits à un prix légèrement moindre (suite a l'achat en gros )
+    - Panier d'achat permet ajouter, supprimer et modifier des articles, aussi d'affiche le detail des produts que la personne va recevoir et le detail des produits qui seront envoyé au RestauDuCoeur.
 
 4. **Gestion des Commandes** :
     - Les utilisateurs peuvent consulter l'historique de leurs commandes passées.
     - Ils peuvent voir l'état de chaque commande (en cours, livrée, annulée, etc.).
 
 5. **Paiement en Ligne** :
-    - Les utilisateurs peuvent effectuer des paiements en ligne de manière sécurisée via Stripe. 
+    - Les utilisateurs peuvent effectuer des paiements en ligne de manière sécurisée via Stripe (ou plus tard paypal si je trouve une facon de le faire en bonus). 
 
-6. **Panneau de Contrôle de l'Administration** :
-    - Les administrateurs peuvent gérer les produits disponibles dans le catalogue.
-    - Ils peuvent voir les commandes en cours et mettre à jour leur statut.
-    - Ils peuvent gérer les comptes des utilisateurs.
 
 ### Back-end Client
 
@@ -49,14 +43,14 @@ L'objectif de l'application "Maitre" est de gérer les commandes, les paiements 
 
 1. **Réception des Commandes** :
     - L'application "Maitre" doit être capable de recevoir en temps réel les commandes passées par les clients via des websockets.
-    - Elle doit afficher les détails de chaque commande, y compris les produits commandés, la quantité, l'adresse de livraison et l'heure de la commande.
+    - Elle doit afficher les détails de chaque commande, y compris les produits commandés, la quantité, l'adresse de livraison et l'heure de la commande et une potentiel annulation.
 
 2. **Traitement des Commandes** :
     - L'application doit permettre aux utilisateurs autorisés de traiter les commandes en les marquant comme en cours de préparation, en cours de livraison, livrées, annulées, etc.
     - Elle doit générer une preuve de chaque commande traitée, par exemple, une photo de la commande préparée.
 
 3. **Gestion des Transactions Financières** :
-    - L'application doit gérer les paiements en ligne sécurisés via Stripe et enregistrer les transactions financières.
+    - L'application doit gérer les paiements en ligne sécurisés via Stripe et enregistrer les transactions financières (et potentiellement paypal).
     - Elle doit afficher les paiements reçus et les associer aux commandes correspondantes.
     - Elle doit pouvoir générer les coupons de réduction d'impot pour les clients 
 
@@ -65,7 +59,12 @@ L'objectif de l'application "Maitre" est de gérer les commandes, les paiements 
     - Elle doit permettre aux utilisateurs de voir instantanément l'état de chaque commande.
 
 5. **Authentification Sécurisée** :
-    - L'application doit mettre en place un système d'authentification sécurisé pour garantir que seuls les utilisateurs autorisés peuvent accéder aux fonctionnalités de gestion des commandes et de traitement des paiements.
+    - L'application doit mettre en place un système d'authentification (connexion admin) sécurisé pour garantir que seuls les utilisateurs autorisés peuvent accéder aux fonctionnalités de gestion des commandes et de traitement des paiements.
+
+6. **Panneau de Contrôle de l'Administration** :
+    - Les administrateurs peuvent gérer les produits disponibles dans le catalogue.
+    - Ils peuvent voir les commandes en cours et mettre à jour leur statut.
+    - Ils peuvent gérer les comptes des utilisateurs.
 
 
 ## Technologies à Utiliser
