@@ -17,9 +17,8 @@ L'objectif de ce projet est de développer une plateforme web permettant aux uti
         - Chaque produit affiche son nom, sa description, son prix, une image et la quantité disponible.
  
 3. **Passer une Commande** :
-    - Les utilisateurs ont la possibilité d'acheter des produits à un prix légèrement plus élevé et d'en offrir aux RestauDuCoeur (1 produit payé plus cher = 1 produit offert au RestauDuCoeur)
+    - Les utilisateurs ont la possibilité d'acheter des produits au prix normal pour eux meme (minimifier au maximum en evitant au maximum les couts) ou en no marge pour une association
     - Panier d'achat permet ajouter, supprimer et modifier des articles, aussi affiche le detail des produts que la personne va recevoir et le detail des produits qui seront envoyé au RestauDuCoeur.
-    - Ils peuvent passer leur commande en spécifiant le RestauDuCoeur aupres duquel ils pourront recuperer la commande 
 
 4. **Gestion des Commandes** :
     - Les utilisateurs peuvent consulter l'historique de leurs commandes passées.
