@@ -1,8 +1,11 @@
+```mermaid
 erDiagram
     CLIENT ||--o{ COMMANDE : passe
     COMMANDE ||--|{ COMMANDE_ITEM : contient
     PRODUIT ||--|{ COMMANDE_ITEM : inclus
     CATEGORIE ||--|{ PRODUIT : contient
+
+
 
     CLIENT {
         int client_id
@@ -45,3 +48,4 @@ erDiagram
         string name
         string description
     }
+```
