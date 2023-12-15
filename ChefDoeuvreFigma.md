@@ -2,4 +2,4 @@ https://www.figma.com/file/vWKiWajhvCz9tc5P4smRdd/Personna-chef-d'oeuvre?type=wh
 
 https://www.figma.com/file/P4xqKSwLJvFles07wup4fR/Untitled?type=design&node-id=0-1&mode=design&t=xdH2jz0OSgNOaJg2-0 : maquette
 
-https://www.figma.com/file/6jUOwctfyl0WMJK5ebh01b/Untitled?type=design&node-id=0-1&mode=design&t=7Xocp8iHySSrznOB-0 //diagramme d'etat
+https://www.figma.com/file/6jUOwctfyl0WMJK5ebh01b/Untitled?type=design&node-id=0-1&mode=design&t=7Xocp8iHySSrznOB-0 diagramme d'etat
