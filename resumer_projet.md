@@ -9,7 +9,7 @@ Inscription et Connexion :
 
 Inscription avec nom, e-mail et mot de passe.
 Connexion avec e-mail et mot de passe.
-Catalogue de Produits :
+Catalog de Produits :
 
 Parcours de produits avec détails (nom, description, prix, image, quantité).
 Passer une Commande :

@@ -12,8 +12,8 @@ L'objectif de ce projet est de développer une plateforme web permettant aux uti
     - Les utilisateurs peuvent s'inscrire en fournissant leur nom, leur adresse e-mail et un mot de passe constituer de 8 caractere minimum une minuscule/majuscule et un caractere special.
     - Les utilisateurs peuvent se connecter en utilisant leur adresse e-mail et leur mot de passe.
 
-2. **Catalogue de Produits** :
-    - Les utilisateurs peuvent parcourir un catalogue de produits en one page avec un fil d'ariane sur le cote si besoin.
+2. **Catalog de Produits** :
+    - Les utilisateurs peuvent parcourir un Catalog de produits en one page avec un fil d'ariane sur le cote si besoin.
         - Chaque produit affiche son nom, sa description, ses prix, une image et la quantité disponible.
  
 3. **Passer une Commande** :
@@ -30,7 +30,7 @@ L'objectif de ce projet est de développer une plateforme web permettant aux uti
     (ou potentiellement paypal si j'ai le temps)
 
 6. **Panneau de Contrôle de l'Administration** :
-    - Les administrateurs peuvent gérer les produits disponibles dans le catalogue.
+    - Les administrateurs peuvent gérer les produits disponibles dans le Catalog.
     - Ils peuvent voir les commandes en cours et mettre à jour leur statut.
     - Ils peuvent gérer les comptes des utilisateurs.
 
