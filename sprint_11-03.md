@@ -1,6 +1,8 @@
+# Planning prévisionnel
+
 ```mermaid
 gantt
-    title Sprint 2 semaines depuis 11 mars 2024
+    title Sprint 2 semaines (11/03/2024-23/03/2024)
     dateFormat YYYY-MM-DD
 
     section Backend
@@ -28,7 +30,7 @@ gantt
 
 ```mermaid
 gantt
-    title Sprint rectificatif 2 semaines depuis 11 mars 2024
+    title Sprint rectificatif 2 semaines (11/03/2024-23/03/2024)
     dateFormat YYYY-MM-DD
 
     section Backend
@@ -60,3 +62,20 @@ gantt
     Fix protection routes : 2024-03-21,
     Récupération produits et affichage : 2024-03-22,
 ```
+
+# Sprint Review
+
+## Axe d'amélioration
+
+- Essayer de se déspécialiser. Zélie prend beaucoup de tickets pour le front et Natanaël pour le back
+- Plusieurs soucis de conflits et de merge impossibles sur Github après une PR :
+    - Ne pas travailler sur une branche de travail qui a déjà été merge précédemment.
+    - Ne pas tirer une branche de travail depuis une autre branche de travail. Il faut repartir de la branche develop.
+- Eviter les PR trop longues. Plusieurs fois des PR de plus de 400 lignes ont du être relues ce qui n'aide pas la compréhension du code par la personne qui n'a pas codé les fonctionnalités.
+- Définir des tickets plus précis et plus petits.
+
+## Points positifs
+
+- Dialogues autour des PR. Communication et explication de code effectives et qui font progresser chaque membre de l'équipe.
+- Avancée du projet plutôt satifaisante
+
