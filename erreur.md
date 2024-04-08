@@ -6,7 +6,7 @@ probleme algorithme : mauvaises gestion de l'algo et des props
 
 many to many genere une table de donnees supp.
 
-orm = surcouche de la bdd pour eeviter d'interagir avec directement 
+orm = surcouche de la bdd pour eviter d'interagir avec directement 
 
 n'oubliez pas de supprimer branche quand unused
 
